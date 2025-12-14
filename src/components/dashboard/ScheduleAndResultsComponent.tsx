@@ -13,7 +13,7 @@ import { NoGamesComponent } from './NoGamesComponent';
 export const ScheduleAndResultsComponent = () => {
   const [date, setDate] = useState(new Date().toISOString().split('T')[0]);
   const { data: schedule, isLoading, isError } = useScheduleQuery(date);
-  const hasGames = !isLoading && schedule && schedule.length > 0;
+  const hasGames = schedule && schedule.length > 0;
 
   return (
     <Stack spacing={2} alignItems="center">
@@ -29,20 +29,20 @@ export const ScheduleAndResultsComponent = () => {
           inputLabel: { shrink: true },
         }}
       />
-      {isLoading && <CircularProgress />}
       {isError && (
         <Typography color="error">Error fetching schedule.</Typography>
       )}
 
+      {isLoading ? <CircularProgress /> :
       <Grid container spacing={2} justifyContent="center">
-        {hasGames ? (
+        { hasGames ? (
           schedule.map((game, index) => (
             <GameNotificationComponent key={index} gameNotification={game} />
           ))
         ) : (
           <NoGamesComponent />
         )}
-      </Grid>
+      </Grid>}
     </Stack>
   );
 };
