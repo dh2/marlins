@@ -71,3 +71,6 @@ This file catalogs the prompts used to generate the application.
 > If the game is "Scheduled"  the value should be the Date and Time (HH:MM am/pm)
 > The marlins affiliate should never have isHome set, only the opponent
 > If there is a score to the game is should be posted after the team name in the TeamComponent, we will have to add score as an optional prop and update the component
+
+## 9.  ChatGPT to generate bases svg Icons
+> I need simple svg icons that work within Material UI to display the current status of runners on base > in a baseball game. Make it dynamic so that I can pass in props onFirst, onSecond, and/or onThird and > it will make the appropriate base's filled prop true

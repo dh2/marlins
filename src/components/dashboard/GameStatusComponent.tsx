@@ -1,5 +1,6 @@
 import type { Scenario, CurrentStatus } from '../../types'
 import { Typography, Box, Stack } from '@mui/material'
+import { BasesIcon } from '../BasesIcon';
 
 export interface GameStatusComponentProps {
     location: string;
@@ -13,8 +14,7 @@ const isCurrentStatus = (scenario: Scenario): scenario is CurrentStatus => {
     scenario !== null &&
     'inningNumber' in scenario &&
     'inningSide' in scenario &&
-    'outs' in scenario &&
-    'basesImage' in scenario
+    'outs' in scenario
   )
 }
 
@@ -41,7 +41,7 @@ export const GameStatusComponent = ({
             <Typography variant="body1">
               {`${scenario.outs} ${scenario.outs > 1 ? 'Outs' : 'Out'}`}{' '}
             </Typography>
-            <img src={scenario.basesImage} alt="bases" />
+            <BasesIcon {...scenario?.baseStatus ?? {}} />
           </Stack>
         </Box>
       )
