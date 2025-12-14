@@ -95,6 +95,7 @@ const transformScheduleData = (
       const opponentActivePlayers = [];
 
       const decisions = game.liveData?.liveData.decisions;
+      const pitchers = game.liveData?.gameData.probablePitchers;
       const currentPlay = game.liveData?.liveData.plays.currentPlay;
       if (isGameOver && decisions) {
         const winner = decisions.winner
@@ -139,6 +140,22 @@ const transformScheduleData = (
         } else {
           if (batter) opponentActivePlayers.push(batter);
           if (pitcher) marlinsActivePlayers.push(pitcher);
+        }
+      } else if(!isGameOver && pitchers) {
+        const homePitch = {
+              label: 'SP:',
+              playerName: pitchers.home?.fullName ?? 'TBD',
+            };
+        const awayPitch = {
+              label: 'SP:',
+              playerName: pitchers.away?.fullName ?? 'TBD',
+            };
+        if (areMarlinsAtHome) {
+          marlinsActivePlayers.push(homePitch);
+          opponentActivePlayers.push(awayPitch);
+        } else {
+          marlinsActivePlayers.push(awayPitch);
+          opponentActivePlayers.push(homePitch);
         }
       }
 
