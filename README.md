@@ -12,6 +12,8 @@ To run this application:
 yarn install
 yarn run dev
 ```
+### Accessing The Dashboard
+The dashboard can be reached at http://localhost:3000/dashboard
 
 ## Technologies Used
 
