@@ -141,15 +141,15 @@ const transformScheduleData = (
           if (batter) opponentActivePlayers.push(batter);
           if (pitcher) marlinsActivePlayers.push(pitcher);
         }
-      } else if(!isGameOver && pitchers) {
+      } else if (!isGameOver && pitchers) {
         const homePitch = {
-              label: 'SP:',
-              playerName: pitchers.home?.fullName ?? 'TBD',
-            };
+          label: 'SP:',
+          playerName: pitchers.home?.fullName ?? 'TBD',
+        };
         const awayPitch = {
-              label: 'SP:',
-              playerName: pitchers.away?.fullName ?? 'TBD',
-            };
+          label: 'SP:',
+          playerName: pitchers.away?.fullName ?? 'TBD',
+        };
         if (areMarlinsAtHome) {
           marlinsActivePlayers.push(homePitch);
           opponentActivePlayers.push(awayPitch);

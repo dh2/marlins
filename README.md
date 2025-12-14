@@ -12,7 +12,9 @@ To run this application:
 yarn install
 yarn run dev
 ```
+
 ### Accessing The Dashboard
+
 The dashboard can be reached at http://localhost:3000/dashboard
 
 ## Technologies Used
@@ -36,5 +38,4 @@ The dashboard can be reached at http://localhost:3000/dashboard
 
 - **TanStack Routing**: This was my first time using this routing system and I really like the file-based version of this technology. It was a lot less overhead to get this up and running than ReactRouter was the first time I used it. Especailly since the TanStack eco-system all works nicely together "out of the box"
 
-- **Latest Versions**: I used the latest version of a lot of technologies and was pleasantly surprised that most of my normal patterns worked pretty well.  I didn't do much with Material UI, but first time I've used it in a while.  Still a favorite for getting up and running with great components quickly.
-
+- **Latest Versions**: I used the latest version of a lot of technologies and was pleasantly surprised that most of my normal patterns worked pretty well. I didn't do much with Material UI, but first time I've used it in a while. Still a favorite for getting up and running with great components quickly.

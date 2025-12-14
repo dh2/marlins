@@ -33,16 +33,19 @@ export const ScheduleAndResultsComponent = () => {
         <Typography color="error">Error fetching schedule.</Typography>
       )}
 
-      {isLoading ? <CircularProgress /> :
-      <Grid container spacing={2} justifyContent="center">
-        { hasGames ? (
-          schedule.map((game, index) => (
-            <GameNotificationComponent key={index} gameNotification={game} />
-          ))
-        ) : (
-          <NoGamesComponent />
-        )}
-      </Grid>}
+      {isLoading ? (
+        <CircularProgress />
+      ) : (
+        <Grid container spacing={2} justifyContent="center">
+          {hasGames ? (
+            schedule.map((game, index) => (
+              <GameNotificationComponent key={index} gameNotification={game} />
+            ))
+          ) : (
+            <NoGamesComponent />
+          )}
+        </Grid>
+      )}
     </Stack>
   );
 };
