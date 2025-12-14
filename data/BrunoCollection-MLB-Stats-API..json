@@ -1,0 +1,757 @@
+{
+  "name": "Marlins",
+  "version": "1",
+  "items": [
+    {
+      "type": "json",
+      "name": "bruno",
+      "seq": 1
+    },
+    {
+      "type": "http",
+      "name": "No Date",
+      "seq": 2,
+      "request": {
+        "url": "https://statsapi.mlb.com/api/v1/schedule?teamId=146&teamId=385&teamId=467&teamId=564&teamId=554&teamId=619&teamId=3276&teamId=4124&teamId=3277&teamId=479&teamId=2127&sportId=1&sportId=21&sportId=16&sportId=11&sportId=13&sportId=16&sportId=21&sportId=12&sportId=21&sportId=14&sportId=16",
+        "method": "GET",
+        "headers": [],
+        "body": {
+          "mode": "none",
+          "formUrlEncoded": [],
+          "multipartForm": []
+        },
+        "auth": {
+          "mode": "none",
+          "basic": {
+            "username": "",
+            "password": ""
+          },
+          "bearer": {
+            "token": ""
+          }
+        },
+        "script": {},
+        "vars": {},
+        "assertions": [],
+        "tests": "",
+        "query": [
+          {
+            "name": "teamId",
+            "value": "146",
+            "enabled": true
+          },
+          {
+            "name": "teamId",
+            "value": "385",
+            "enabled": true
+          },
+          {
+            "name": "teamId",
+            "value": "467",
+            "enabled": true
+          },
+          {
+            "name": "teamId",
+            "value": "564",
+            "enabled": true
+          },
+          {
+            "name": "teamId",
+            "value": "554",
+            "enabled": true
+          },
+          {
+            "name": "teamId",
+            "value": "619",
+            "enabled": true
+          },
+          {
+            "name": "teamId",
+            "value": "3276",
+            "enabled": true
+          },
+          {
+            "name": "teamId",
+            "value": "4124",
+            "enabled": true
+          },
+          {
+            "name": "teamId",
+            "value": "3277",
+            "enabled": true
+          },
+          {
+            "name": "teamId",
+            "value": "479",
+            "enabled": true
+          },
+          {
+            "name": "teamId",
+            "value": "2127",
+            "enabled": true
+          },
+          {
+            "name": "sportId",
+            "value": "1",
+            "enabled": true
+          },
+          {
+            "name": "sportId",
+            "value": "21",
+            "enabled": true
+          },
+          {
+            "name": "sportId",
+            "value": "16",
+            "enabled": true
+          },
+          {
+            "name": "sportId",
+            "value": "11",
+            "enabled": true
+          },
+          {
+            "name": "sportId",
+            "value": "13",
+            "enabled": true
+          },
+          {
+            "name": "sportId",
+            "value": "16",
+            "enabled": true
+          },
+          {
+            "name": "sportId",
+            "value": "21",
+            "enabled": true
+          },
+          {
+            "name": "sportId",
+            "value": "12",
+            "enabled": true
+          },
+          {
+            "name": "sportId",
+            "value": "21",
+            "enabled": true
+          },
+          {
+            "name": "sportId",
+            "value": "14",
+            "enabled": true
+          },
+          {
+            "name": "sportId",
+            "value": "16",
+            "enabled": true
+          }
+        ]
+      }
+    },
+    {
+      "type": "http",
+      "name": "No Games",
+      "seq": 3,
+      "request": {
+        "url": "https://statsapi.mlb.com/api/v1/schedule?teamId=146&teamId=385&teamId=467&teamId=564&teamId=554&teamId=619&teamId=3276&teamId=4124&teamId=3277&teamId=479&teamId=2127&sportId=1&sportId=21&sportId=16&sportId=11&sportId=13&sportId=16&sportId=21&sportId=12&sportId=21&sportId=14&sportId=16&date=2025-03-26",
+        "method": "GET",
+        "headers": [],
+        "body": {
+          "mode": "none",
+          "formUrlEncoded": [],
+          "multipartForm": []
+        },
+        "auth": {
+          "mode": "none",
+          "basic": {
+            "username": "",
+            "password": ""
+          },
+          "bearer": {
+            "token": ""
+          }
+        },
+        "script": {},
+        "vars": {},
+        "assertions": [],
+        "tests": "",
+        "query": [
+          {
+            "name": "teamId",
+            "value": "146",
+            "enabled": true
+          },
+          {
+            "name": "teamId",
+            "value": "385",
+            "enabled": true
+          },
+          {
+            "name": "teamId",
+            "value": "467",
+            "enabled": true
+          },
+          {
+            "name": "teamId",
+            "value": "564",
+            "enabled": true
+          },
+          {
+            "name": "teamId",
+            "value": "554",
+            "enabled": true
+          },
+          {
+            "name": "teamId",
+            "value": "619",
+            "enabled": true
+          },
+          {
+            "name": "teamId",
+            "value": "3276",
+            "enabled": true
+          },
+          {
+            "name": "teamId",
+            "value": "4124",
+            "enabled": true
+          },
+          {
+            "name": "teamId",
+            "value": "3277",
+            "enabled": true
+          },
+          {
+            "name": "teamId",
+            "value": "479",
+            "enabled": true
+          },
+          {
+            "name": "teamId",
+            "value": "2127",
+            "enabled": true
+          },
+          {
+            "name": "sportId",
+            "value": "1",
+            "enabled": true
+          },
+          {
+            "name": "sportId",
+            "value": "21",
+            "enabled": true
+          },
+          {
+            "name": "sportId",
+            "value": "16",
+            "enabled": true
+          },
+          {
+            "name": "sportId",
+            "value": "11",
+            "enabled": true
+          },
+          {
+            "name": "sportId",
+            "value": "13",
+            "enabled": true
+          },
+          {
+            "name": "sportId",
+            "value": "16",
+            "enabled": true
+          },
+          {
+            "name": "sportId",
+            "value": "21",
+            "enabled": true
+          },
+          {
+            "name": "sportId",
+            "value": "12",
+            "enabled": true
+          },
+          {
+            "name": "sportId",
+            "value": "21",
+            "enabled": true
+          },
+          {
+            "name": "sportId",
+            "value": "14",
+            "enabled": true
+          },
+          {
+            "name": "sportId",
+            "value": "16",
+            "enabled": true
+          },
+          {
+            "name": "date",
+            "value": "2025-03-26",
+            "enabled": true
+          }
+        ]
+      }
+    },
+    {
+      "type": "http",
+      "name": "Live Feed",
+      "seq": 4,
+      "request": {
+        "url": "https://statsapi.mlb.com/api/v1.1/game/777093/feed/live",
+        "method": "GET",
+        "headers": [],
+        "body": {
+          "mode": "none",
+          "formUrlEncoded": [],
+          "multipartForm": []
+        },
+        "auth": {
+          "mode": "none",
+          "basic": {
+            "username": "",
+            "password": ""
+          },
+          "bearer": {
+            "token": ""
+          }
+        },
+        "script": {},
+        "vars": {},
+        "assertions": [],
+        "tests": "",
+        "query": []
+      }
+    },
+    {
+      "type": "http",
+      "name": "Many Games",
+      "seq": 5,
+      "request": {
+        "url": "https://statsapi.mlb.com/api/v1/schedule?teamId=146&teamId=385&teamId=467&teamId=564&teamId=554&teamId=619&teamId=3276&teamId=4124&teamId=3277&teamId=479&teamId=2127&sportId=1&sportId=21&sportId=16&sportId=11&sportId=13&sportId=16&sportId=21&sportId=12&sportId=21&sportId=14&sportId=16&date=2025-03-03&hydrate=team,tickets",
+        "method": "GET",
+        "headers": [],
+        "body": {
+          "mode": "none",
+          "formUrlEncoded": [],
+          "multipartForm": []
+        },
+        "auth": {
+          "mode": "none",
+          "basic": {
+            "username": "",
+            "password": ""
+          },
+          "bearer": {
+            "token": ""
+          }
+        },
+        "script": {},
+        "vars": {},
+        "assertions": [],
+        "tests": "",
+        "query": [
+          {
+            "name": "teamId",
+            "value": "146",
+            "enabled": true
+          },
+          {
+            "name": "teamId",
+            "value": "385",
+            "enabled": true
+          },
+          {
+            "name": "teamId",
+            "value": "467",
+            "enabled": true
+          },
+          {
+            "name": "teamId",
+            "value": "564",
+            "enabled": true
+          },
+          {
+            "name": "teamId",
+            "value": "554",
+            "enabled": true
+          },
+          {
+            "name": "teamId",
+            "value": "619",
+            "enabled": true
+          },
+          {
+            "name": "teamId",
+            "value": "3276",
+            "enabled": true
+          },
+          {
+            "name": "teamId",
+            "value": "4124",
+            "enabled": true
+          },
+          {
+            "name": "teamId",
+            "value": "3277",
+            "enabled": true
+          },
+          {
+            "name": "teamId",
+            "value": "479",
+            "enabled": true
+          },
+          {
+            "name": "teamId",
+            "value": "2127",
+            "enabled": true
+          },
+          {
+            "name": "sportId",
+            "value": "1",
+            "enabled": true
+          },
+          {
+            "name": "sportId",
+            "value": "21",
+            "enabled": true
+          },
+          {
+            "name": "sportId",
+            "value": "16",
+            "enabled": true
+          },
+          {
+            "name": "sportId",
+            "value": "11",
+            "enabled": true
+          },
+          {
+            "name": "sportId",
+            "value": "13",
+            "enabled": true
+          },
+          {
+            "name": "sportId",
+            "value": "16",
+            "enabled": true
+          },
+          {
+            "name": "sportId",
+            "value": "21",
+            "enabled": true
+          },
+          {
+            "name": "sportId",
+            "value": "12",
+            "enabled": true
+          },
+          {
+            "name": "sportId",
+            "value": "21",
+            "enabled": true
+          },
+          {
+            "name": "sportId",
+            "value": "14",
+            "enabled": true
+          },
+          {
+            "name": "sportId",
+            "value": "16",
+            "enabled": true
+          },
+          {
+            "name": "date",
+            "value": "2025-03-03",
+            "enabled": true
+          },
+          {
+            "name": "hydrate",
+            "value": "team,tickets",
+            "enabled": true
+          }
+        ]
+      }
+    },
+    {
+      "type": "http",
+      "name": "MLB Only",
+      "seq": 6,
+      "request": {
+        "url": "https://statsapi.mlb.com/api/v1/schedule?teamId=146&teamId=385&teamId=467&teamId=564&teamId=554&teamId=619&teamId=3276&teamId=4124&teamId=3277&teamId=479&teamId=2127&sportId=1&sportId=21&sportId=16&sportId=11&sportId=13&sportId=16&sportId=21&sportId=12&sportId=21&sportId=14&sportId=16&date=2025-03-01&hydrate=team",
+        "method": "GET",
+        "headers": [],
+        "body": {
+          "mode": "none",
+          "formUrlEncoded": [],
+          "multipartForm": []
+        },
+        "auth": {
+          "mode": "none",
+          "basic": {
+            "username": "",
+            "password": ""
+          },
+          "bearer": {
+            "token": ""
+          }
+        },
+        "script": {},
+        "vars": {},
+        "assertions": [],
+        "tests": "",
+        "query": [
+          {
+            "name": "teamId",
+            "value": "146",
+            "enabled": true
+          },
+          {
+            "name": "teamId",
+            "value": "385",
+            "enabled": true
+          },
+          {
+            "name": "teamId",
+            "value": "467",
+            "enabled": true
+          },
+          {
+            "name": "teamId",
+            "value": "564",
+            "enabled": true
+          },
+          {
+            "name": "teamId",
+            "value": "554",
+            "enabled": true
+          },
+          {
+            "name": "teamId",
+            "value": "619",
+            "enabled": true
+          },
+          {
+            "name": "teamId",
+            "value": "3276",
+            "enabled": true
+          },
+          {
+            "name": "teamId",
+            "value": "4124",
+            "enabled": true
+          },
+          {
+            "name": "teamId",
+            "value": "3277",
+            "enabled": true
+          },
+          {
+            "name": "teamId",
+            "value": "479",
+            "enabled": true
+          },
+          {
+            "name": "teamId",
+            "value": "2127",
+            "enabled": true
+          },
+          {
+            "name": "sportId",
+            "value": "1",
+            "enabled": true
+          },
+          {
+            "name": "sportId",
+            "value": "21",
+            "enabled": true
+          },
+          {
+            "name": "sportId",
+            "value": "16",
+            "enabled": true
+          },
+          {
+            "name": "sportId",
+            "value": "11",
+            "enabled": true
+          },
+          {
+            "name": "sportId",
+            "value": "13",
+            "enabled": true
+          },
+          {
+            "name": "sportId",
+            "value": "16",
+            "enabled": true
+          },
+          {
+            "name": "sportId",
+            "value": "21",
+            "enabled": true
+          },
+          {
+            "name": "sportId",
+            "value": "12",
+            "enabled": true
+          },
+          {
+            "name": "sportId",
+            "value": "21",
+            "enabled": true
+          },
+          {
+            "name": "sportId",
+            "value": "14",
+            "enabled": true
+          },
+          {
+            "name": "sportId",
+            "value": "16",
+            "enabled": true
+          },
+          {
+            "name": "date",
+            "value": "2025-03-01",
+            "enabled": true
+          },
+          {
+            "name": "hydrate",
+            "value": "team",
+            "enabled": true
+          }
+        ]
+      }
+    },
+    {
+      "type": "http",
+      "name": "Team Data",
+      "seq": 7,
+      "request": {
+        "url": "https://statsapi.mlb.com/api/v1/teams?sportId=1",
+        "method": "GET",
+        "headers": [],
+        "body": {
+          "mode": "none",
+          "formUrlEncoded": [],
+          "multipartForm": []
+        },
+        "auth": {
+          "mode": "none",
+          "basic": {
+            "username": "",
+            "password": ""
+          },
+          "bearer": {
+            "token": ""
+          }
+        },
+        "script": {},
+        "vars": {},
+        "assertions": [],
+        "tests": "",
+        "query": [
+          {
+            "name": "sportId",
+            "value": "1",
+            "enabled": true
+          }
+        ]
+      }
+    },
+    {
+      "type": "http",
+      "name": "Affiliates",
+      "seq": 8,
+      "request": {
+        "url": "https://statsapi.mlb.com/api/v1/teams/146/affiliates",
+        "method": "GET",
+        "headers": [],
+        "body": {
+          "mode": "none",
+          "formUrlEncoded": [],
+          "multipartForm": []
+        },
+        "auth": {
+          "mode": "none",
+          "basic": {
+            "username": "",
+            "password": ""
+          },
+          "bearer": {
+            "token": ""
+          }
+        },
+        "script": {},
+        "vars": {},
+        "assertions": [],
+        "tests": "",
+        "query": []
+      }
+    },
+    {
+      "type": "http",
+      "name": "Box Score",
+      "seq": 9,
+      "request": {
+        "url": "https://statsapi.mlb.com/api/v1/game/777093/boxscore",
+        "method": "GET",
+        "headers": [],
+        "body": {
+          "mode": "none",
+          "formUrlEncoded": [],
+          "multipartForm": []
+        },
+        "auth": {
+          "mode": "none",
+          "basic": {
+            "username": "",
+            "password": ""
+          },
+          "bearer": {
+            "token": ""
+          }
+        },
+        "script": {},
+        "vars": {},
+        "assertions": [],
+        "tests": "",
+        "query": []
+      }
+    },
+    {
+      "type": "http",
+      "name": "Line Score",
+      "seq": 10,
+      "request": {
+        "url": "https://statsapi.mlb.com/api/v1/game/777093/linescore",
+        "method": "GET",
+        "headers": [],
+        "body": {
+          "mode": "none",
+          "formUrlEncoded": [],
+          "multipartForm": []
+        },
+        "auth": {
+          "mode": "none",
+          "basic": {
+            "username": "",
+            "password": ""
+          },
+          "bearer": {
+            "token": ""
+          }
+        },
+        "script": {},
+        "vars": {},
+        "assertions": [],
+        "tests": "",
+        "query": []
+      }
+    }
+  ],
+  "environments": []
+}

@@ -2,13 +2,11 @@
   "projectName": "marlins",
   "mode": "file-router",
   "typescript": true,
-  "tailwind": true,
+  "tailwind": false,
   "packageManager": "yarn",
   "addOnOptions": {},
   "git": true,
   "version": 1,
   "framework": "react-cra",
-  "chosenAddOns": [
-    "eslint"
-  ]
+  "chosenAddOns": ["eslint"]
 }

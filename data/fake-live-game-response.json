@@ -5,10 +5,7 @@
   "metaData": {
     "wait": 10,
     "timeStamp": "20250719_222108",
-    "gameEvents": [
-      "field_out",
-      "game_finished"
-    ],
+    "gameEvents": ["field_out", "game_finished"],
     "logicalEvents": [
       "midInning",
       "countChange",
@@ -2906,22 +2903,9 @@
               "menOnBase": "Empty"
             }
           },
-          "pitchIndex": [
-            3,
-            4,
-            6,
-            7,
-            8,
-            9
-          ],
-          "actionIndex": [
-            0,
-            1,
-            2
-          ],
-          "runnerIndex": [
-            0
-          ],
+          "pitchIndex": [3, 4, 6, 7, 8, 9],
+          "actionIndex": [0, 1, 2],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -3587,16 +3571,9 @@
               "menOnBase": "Empty"
             }
           },
-          "pitchIndex": [
-            0,
-            1,
-            2,
-            3
-          ],
+          "pitchIndex": [0, 1, 2, 3],
           "actionIndex": [],
-          "runnerIndex": [
-            0
-          ],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -4001,13 +3978,9 @@
               "menOnBase": "Empty"
             }
           },
-          "pitchIndex": [
-            0
-          ],
+          "pitchIndex": [0],
           "actionIndex": [],
-          "runnerIndex": [
-            0
-          ],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -4201,13 +4174,9 @@
               "menOnBase": "RISP"
             }
           },
-          "pitchIndex": [
-            1
-          ],
+          "pitchIndex": [1],
           "actionIndex": [],
-          "runnerIndex": [
-            0
-          ],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -4427,19 +4396,9 @@
               "menOnBase": "RISP"
             }
           },
-          "pitchIndex": [
-            0,
-            1,
-            2,
-            3,
-            4,
-            5,
-            6
-          ],
+          "pitchIndex": [0, 1, 2, 3, 4, 5, 6],
           "actionIndex": [],
-          "runnerIndex": [
-            0
-          ],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -5014,19 +4973,9 @@
               "menOnBase": "Empty"
             }
           },
-          "pitchIndex": [
-            0,
-            1,
-            2,
-            3,
-            4,
-            5
-          ],
+          "pitchIndex": [0, 1, 2, 3, 4, 5],
           "actionIndex": [],
-          "runnerIndex": [
-            0,
-            1
-          ],
+          "runnerIndex": [0, 1],
           "runners": [
             {
               "movement": {
@@ -5618,15 +5567,9 @@
               "menOnBase": "Empty"
             }
           },
-          "pitchIndex": [
-            0,
-            1,
-            2
-          ],
+          "pitchIndex": [0, 1, 2],
           "actionIndex": [],
-          "runnerIndex": [
-            0
-          ],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -5972,14 +5915,9 @@
               "menOnBase": "Empty"
             }
           },
-          "pitchIndex": [
-            0,
-            1
-          ],
+          "pitchIndex": [0, 1],
           "actionIndex": [],
-          "runnerIndex": [
-            0
-          ],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -6250,15 +6188,9 @@
               "menOnBase": "Empty"
             }
           },
-          "pitchIndex": [
-            0,
-            1,
-            2
-          ],
+          "pitchIndex": [0, 1, 2],
           "actionIndex": [],
-          "runnerIndex": [
-            0
-          ],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -6609,14 +6541,9 @@
               "menOnBase": "Men_On"
             }
           },
-          "pitchIndex": [
-            0,
-            1
-          ],
+          "pitchIndex": [0, 1],
           "actionIndex": [],
-          "runnerIndex": [
-            0
-          ],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -6877,14 +6804,9 @@
               "menOnBase": "Empty"
             }
           },
-          "pitchIndex": [
-            0,
-            1
-          ],
+          "pitchIndex": [0, 1],
           "actionIndex": [],
-          "runnerIndex": [
-            0
-          ],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -7150,18 +7072,9 @@
               "menOnBase": "Men_On"
             }
           },
-          "pitchIndex": [
-            0,
-            1,
-            2,
-            3,
-            4,
-            6
-          ],
+          "pitchIndex": [0, 1, 2, 3, 4, 6],
           "actionIndex": [],
-          "runnerIndex": [
-            0
-          ],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -7715,14 +7628,9 @@
               "menOnBase": "Men_On"
             }
           },
-          "pitchIndex": [
-            0,
-            1
-          ],
+          "pitchIndex": [0, 1],
           "actionIndex": [],
-          "runnerIndex": [
-            0
-          ],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -7983,14 +7891,9 @@
               "menOnBase": "Empty"
             }
           },
-          "pitchIndex": [
-            0
-          ],
+          "pitchIndex": [0],
           "actionIndex": [],
-          "runnerIndex": [
-            0,
-            1
-          ],
+          "runnerIndex": [0, 1],
           "runners": [
             {
               "movement": {
@@ -8246,17 +8149,9 @@
               "menOnBase": "Empty"
             }
           },
-          "pitchIndex": [
-            0,
-            1,
-            2,
-            3,
-            5
-          ],
+          "pitchIndex": [0, 1, 2, 3, 5],
           "actionIndex": [],
-          "runnerIndex": [
-            0
-          ],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -8777,13 +8672,9 @@
               "menOnBase": "Men_On"
             }
           },
-          "pitchIndex": [
-            0
-          ],
+          "pitchIndex": [0],
           "actionIndex": [],
-          "runnerIndex": [
-            0
-          ],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -8972,24 +8863,9 @@
               "menOnBase": "Empty"
             }
           },
-          "pitchIndex": [
-            0,
-            1,
-            2,
-            4,
-            5,
-            6,
-            8,
-            9,
-            10
-          ],
-          "actionIndex": [
-            7
-          ],
-          "runnerIndex": [
-            0,
-            1
-          ],
+          "pitchIndex": [0, 1, 2, 4, 5, 6, 8, 9, 10],
+          "actionIndex": [7],
+          "runnerIndex": [0, 1],
           "runners": [
             {
               "movement": {
@@ -9731,14 +9607,9 @@
               "menOnBase": "Empty"
             }
           },
-          "pitchIndex": [
-            0,
-            1
-          ],
+          "pitchIndex": [0, 1],
           "actionIndex": [],
-          "runnerIndex": [
-            0
-          ],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -10012,14 +9883,9 @@
               "menOnBase": "Empty"
             }
           },
-          "pitchIndex": [
-            0,
-            1
-          ],
+          "pitchIndex": [0, 1],
           "actionIndex": [],
-          "runnerIndex": [
-            0
-          ],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -10280,15 +10146,9 @@
               "menOnBase": "Empty"
             }
           },
-          "pitchIndex": [
-            1,
-            2,
-            3
-          ],
+          "pitchIndex": [1, 2, 3],
           "actionIndex": [],
-          "runnerIndex": [
-            0
-          ],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -10647,14 +10507,9 @@
               "menOnBase": "Empty"
             }
           },
-          "pitchIndex": [
-            0,
-            1
-          ],
+          "pitchIndex": [0, 1],
           "actionIndex": [],
-          "runnerIndex": [
-            0
-          ],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -10915,18 +10770,9 @@
               "menOnBase": "Empty"
             }
           },
-          "pitchIndex": [
-            0,
-            1,
-            2,
-            3,
-            4,
-            5
-          ],
+          "pitchIndex": [0, 1, 2, 3, 4, 5],
           "actionIndex": [],
-          "runnerIndex": [
-            0
-          ],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -11463,20 +11309,9 @@
               "menOnBase": "Empty"
             }
           },
-          "pitchIndex": [
-            0,
-            1,
-            2,
-            4,
-            5,
-            6
-          ],
-          "actionIndex": [
-            3
-          ],
-          "runnerIndex": [
-            0
-          ],
+          "pitchIndex": [0, 1, 2, 4, 5, 6],
+          "actionIndex": [3],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -12056,19 +11891,9 @@
               "menOnBase": "Men_On"
             }
           },
-          "pitchIndex": [
-            0,
-            1,
-            2,
-            4,
-            5,
-            6,
-            7
-          ],
+          "pitchIndex": [0, 1, 2, 4, 5, 6, 7],
           "actionIndex": [],
-          "runnerIndex": [
-            0
-          ],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -12720,17 +12545,9 @@
               "menOnBase": "Men_On"
             }
           },
-          "pitchIndex": [
-            0,
-            1,
-            2,
-            3,
-            4
-          ],
+          "pitchIndex": [0, 1, 2, 3, 4],
           "actionIndex": [],
-          "runnerIndex": [
-            0
-          ],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -13157,15 +12974,9 @@
               "menOnBase": "Empty"
             }
           },
-          "pitchIndex": [
-            0,
-            1
-          ],
+          "pitchIndex": [0, 1],
           "actionIndex": [],
-          "runnerIndex": [
-            0,
-            1
-          ],
+          "runnerIndex": [0, 1],
           "runners": [
             {
               "movement": {
@@ -13493,14 +13304,9 @@
               "menOnBase": "Empty"
             }
           },
-          "pitchIndex": [
-            0,
-            1
-          ],
+          "pitchIndex": [0, 1],
           "actionIndex": [],
-          "runnerIndex": [
-            0
-          ],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -13774,16 +13580,9 @@
               "menOnBase": "Empty"
             }
           },
-          "pitchIndex": [
-            0,
-            1,
-            2,
-            3
-          ],
+          "pitchIndex": [0, 1, 2, 3],
           "actionIndex": [],
-          "runnerIndex": [
-            0
-          ],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -14201,19 +14000,9 @@
               "menOnBase": "Empty"
             }
           },
-          "pitchIndex": [
-            0,
-            1,
-            2,
-            3,
-            4,
-            5,
-            7
-          ],
+          "pitchIndex": [0, 1, 2, 3, 4, 5, 7],
           "actionIndex": [],
-          "runnerIndex": [
-            0
-          ],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -14848,17 +14637,9 @@
               "menOnBase": "Empty"
             }
           },
-          "pitchIndex": [
-            0,
-            1,
-            3,
-            4,
-            5
-          ],
+          "pitchIndex": [0, 1, 3, 4, 5],
           "actionIndex": [],
-          "runnerIndex": [
-            0
-          ],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -15361,14 +15142,9 @@
               "menOnBase": "Empty"
             }
           },
-          "pitchIndex": [
-            0,
-            1
-          ],
+          "pitchIndex": [0, 1],
           "actionIndex": [],
-          "runnerIndex": [
-            0
-          ],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -15647,20 +15423,9 @@
               "menOnBase": "Men_On"
             }
           },
-          "pitchIndex": [
-            0,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8
-          ],
+          "pitchIndex": [0, 2, 3, 4, 5, 6, 7, 8],
           "actionIndex": [],
-          "runnerIndex": [
-            0
-          ],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -16379,17 +16144,9 @@
               "menOnBase": "Empty"
             }
           },
-          "pitchIndex": [
-            0,
-            1,
-            2,
-            3,
-            4
-          ],
+          "pitchIndex": [0, 1, 2, 3, 4],
           "actionIndex": [],
-          "runnerIndex": [
-            0
-          ],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -16879,16 +16636,9 @@
               "menOnBase": "Empty"
             }
           },
-          "pitchIndex": [
-            0,
-            1,
-            2,
-            3
-          ],
+          "pitchIndex": [0, 1, 2, 3],
           "actionIndex": [],
-          "runnerIndex": [
-            0
-          ],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -17306,16 +17056,9 @@
               "menOnBase": "Empty"
             }
           },
-          "pitchIndex": [
-            0,
-            1,
-            2,
-            4
-          ],
+          "pitchIndex": [0, 1, 2, 4],
           "actionIndex": [],
-          "runnerIndex": [
-            0
-          ],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -17734,14 +17477,9 @@
               "menOnBase": "Empty"
             }
           },
-          "pitchIndex": [
-            0,
-            1
-          ],
+          "pitchIndex": [0, 1],
           "actionIndex": [],
-          "runnerIndex": [
-            0
-          ],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -18015,17 +17753,9 @@
               "menOnBase": "Empty"
             }
           },
-          "pitchIndex": [
-            0,
-            1,
-            2,
-            3,
-            5
-          ],
+          "pitchIndex": [0, 1, 2, 3, 5],
           "actionIndex": [],
-          "runnerIndex": [
-            0
-          ],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -18516,16 +18246,9 @@
               "menOnBase": "Empty"
             }
           },
-          "pitchIndex": [
-            0,
-            2,
-            3,
-            4
-          ],
+          "pitchIndex": [0, 2, 3, 4],
           "actionIndex": [],
-          "runnerIndex": [
-            0
-          ],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -18956,16 +18679,9 @@
               "menOnBase": "Empty"
             }
           },
-          "pitchIndex": [
-            0,
-            2,
-            3,
-            4
-          ],
+          "pitchIndex": [0, 2, 3, 4],
           "actionIndex": [],
-          "runnerIndex": [
-            0
-          ],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -19396,16 +19112,9 @@
               "menOnBase": "Empty"
             }
           },
-          "pitchIndex": [
-            1,
-            2
-          ],
-          "actionIndex": [
-            0
-          ],
-          "runnerIndex": [
-            0
-          ],
+          "pitchIndex": [1, 2],
+          "actionIndex": [0],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -19704,18 +19413,9 @@
               "menOnBase": "Men_On"
             }
           },
-          "pitchIndex": [
-            0,
-            1,
-            2,
-            3,
-            4,
-            5
-          ],
+          "pitchIndex": [0, 1, 2, 3, 4, 5],
           "actionIndex": [],
-          "runnerIndex": [
-            0
-          ],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -20238,14 +19938,9 @@
               "menOnBase": "Empty"
             }
           },
-          "pitchIndex": [
-            0
-          ],
+          "pitchIndex": [0],
           "actionIndex": [],
-          "runnerIndex": [
-            0,
-            1
-          ],
+          "runnerIndex": [0, 1],
           "runners": [
             {
               "movement": {
@@ -20501,16 +20196,9 @@
               "menOnBase": "Empty"
             }
           },
-          "pitchIndex": [
-            2,
-            3
-          ],
-          "actionIndex": [
-            0
-          ],
-          "runnerIndex": [
-            0
-          ],
+          "pitchIndex": [2, 3],
+          "actionIndex": [0],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -20839,15 +20527,9 @@
               "menOnBase": "Empty"
             }
           },
-          "pitchIndex": [
-            0,
-            1,
-            2
-          ],
+          "pitchIndex": [0, 1, 2],
           "actionIndex": [],
-          "runnerIndex": [
-            0
-          ],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -21173,16 +20855,9 @@
               "menOnBase": "RISP"
             }
           },
-          "pitchIndex": [
-            0,
-            1,
-            2,
-            4
-          ],
+          "pitchIndex": [0, 1, 2, 4],
           "actionIndex": [],
-          "runnerIndex": [
-            0
-          ],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -21623,20 +21298,9 @@
               "menOnBase": "RISP"
             }
           },
-          "pitchIndex": [
-            0,
-            1,
-            2,
-            3,
-            4,
-            6,
-            7,
-            8
-          ],
+          "pitchIndex": [0, 1, 2, 3, 4, 6, 7, 8],
           "actionIndex": [],
-          "runnerIndex": [
-            0
-          ],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -22344,16 +22008,9 @@
               "menOnBase": "Loaded"
             }
           },
-          "pitchIndex": [
-            0,
-            1
-          ],
+          "pitchIndex": [0, 1],
           "actionIndex": [],
-          "runnerIndex": [
-            0,
-            1,
-            2
-          ],
+          "runnerIndex": [0, 1, 2],
           "runners": [
             {
               "movement": {
@@ -22642,15 +22299,9 @@
               "menOnBase": "Empty"
             }
           },
-          "pitchIndex": [
-            1,
-            2,
-            3
-          ],
+          "pitchIndex": [1, 2, 3],
           "actionIndex": [],
-          "runnerIndex": [
-            0
-          ],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -23018,18 +22669,9 @@
               "menOnBase": "Empty"
             }
           },
-          "pitchIndex": [
-            2,
-            3,
-            4
-          ],
-          "actionIndex": [
-            0,
-            1
-          ],
-          "runnerIndex": [
-            0
-          ],
+          "pitchIndex": [2, 3, 4],
+          "actionIndex": [0, 1],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -23422,15 +23064,9 @@
               "menOnBase": "Empty"
             }
           },
-          "pitchIndex": [
-            0,
-            1,
-            2
-          ],
+          "pitchIndex": [0, 1, 2],
           "actionIndex": [],
-          "runnerIndex": [
-            0
-          ],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -23763,16 +23399,9 @@
               "menOnBase": "Empty"
             }
           },
-          "pitchIndex": [
-            0,
-            1,
-            2,
-            3
-          ],
+          "pitchIndex": [0, 1, 2, 3],
           "actionIndex": [],
-          "runnerIndex": [
-            0
-          ],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -24170,16 +23799,9 @@
               "menOnBase": "Men_On"
             }
           },
-          "pitchIndex": [
-            0,
-            1,
-            2,
-            4
-          ],
+          "pitchIndex": [0, 1, 2, 4],
           "actionIndex": [],
-          "runnerIndex": [
-            0
-          ],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -24590,20 +24212,9 @@
               "menOnBase": "RISP"
             }
           },
-          "pitchIndex": [
-            1,
-            2,
-            3,
-            5
-          ],
-          "actionIndex": [
-            0,
-            4
-          ],
-          "runnerIndex": [
-            0,
-            1
-          ],
+          "pitchIndex": [1, 2, 3, 5],
+          "actionIndex": [0, 4],
+          "runnerIndex": [0, 1],
           "runners": [
             {
               "movement": {
@@ -25076,15 +24687,9 @@
               "menOnBase": "Empty"
             }
           },
-          "pitchIndex": [
-            1,
-            2,
-            3
-          ],
+          "pitchIndex": [1, 2, 3],
           "actionIndex": [],
-          "runnerIndex": [
-            0
-          ],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -25444,21 +25049,9 @@
               "menOnBase": "Men_On"
             }
           },
-          "pitchIndex": [
-            3,
-            4,
-            5,
-            6,
-            7
-          ],
-          "actionIndex": [
-            0,
-            1,
-            2
-          ],
-          "runnerIndex": [
-            0
-          ],
+          "pitchIndex": [3, 4, 5, 6, 7],
+          "actionIndex": [0, 1, 2],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -26024,20 +25617,9 @@
               "menOnBase": "RISP"
             }
           },
-          "pitchIndex": [
-            1,
-            2,
-            4,
-            5,
-            6
-          ],
-          "actionIndex": [
-            3
-          ],
-          "runnerIndex": [
-            0,
-            1
-          ],
+          "pitchIndex": [1, 2, 4, 5, 6],
+          "actionIndex": [3],
+          "runnerIndex": [0, 1],
           "runners": [
             {
               "movement": {
@@ -26524,16 +26106,9 @@
               "menOnBase": "Loaded"
             }
           },
-          "pitchIndex": [
-            0,
-            1,
-            2,
-            3
-          ],
+          "pitchIndex": [0, 1, 2, 3],
           "actionIndex": [],
-          "runnerIndex": [
-            0
-          ],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -26742,18 +26317,9 @@
               "menOnBase": "RISP"
             }
           },
-          "pitchIndex": [
-            1,
-            2,
-            3
-          ],
+          "pitchIndex": [1, 2, 3],
           "actionIndex": [],
-          "runnerIndex": [
-            0,
-            1,
-            2,
-            3
-          ],
+          "runnerIndex": [0, 1, 2, 3],
           "runners": [
             {
               "movement": {
@@ -27209,16 +26775,9 @@
               "menOnBase": "RISP"
             }
           },
-          "pitchIndex": [
-            1,
-            2,
-            3,
-            4
-          ],
+          "pitchIndex": [1, 2, 3, 4],
           "actionIndex": [],
-          "runnerIndex": [
-            0
-          ],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -27648,16 +27207,9 @@
               "menOnBase": "Loaded"
             }
           },
-          "pitchIndex": [
-            0,
-            1,
-            2,
-            3
-          ],
+          "pitchIndex": [0, 1, 2, 3],
           "actionIndex": [],
-          "runnerIndex": [
-            0
-          ],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -27871,14 +27423,9 @@
               "menOnBase": "Loaded"
             }
           },
-          "pitchIndex": [
-            0,
-            1
-          ],
+          "pitchIndex": [0, 1],
           "actionIndex": [],
-          "runnerIndex": [
-            0
-          ],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -28139,14 +27686,9 @@
               "menOnBase": "Empty"
             }
           },
-          "pitchIndex": [
-            0
-          ],
+          "pitchIndex": [0],
           "actionIndex": [],
-          "runnerIndex": [
-            0,
-            1
-          ],
+          "runnerIndex": [0, 1],
           "runners": [
             {
               "movement": {
@@ -28375,16 +27917,9 @@
               "menOnBase": "Empty"
             }
           },
-          "pitchIndex": [
-            1,
-            2
-          ],
-          "actionIndex": [
-            0
-          ],
-          "runnerIndex": [
-            0
-          ],
+          "pitchIndex": [1, 2],
+          "actionIndex": [0],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -28678,16 +28213,9 @@
               "menOnBase": "Empty"
             }
           },
-          "pitchIndex": [
-            0,
-            1,
-            2,
-            3
-          ],
+          "pitchIndex": [0, 1, 2, 3],
           "actionIndex": [],
-          "runnerIndex": [
-            0
-          ],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -29080,15 +28608,9 @@
               "menOnBase": "Empty"
             }
           },
-          "pitchIndex": [
-            0,
-            1,
-            2
-          ],
+          "pitchIndex": [0, 1, 2],
           "actionIndex": [],
-          "runnerIndex": [
-            0
-          ],
+          "runnerIndex": [0],
           "runners": [
             {
               "movement": {
@@ -29409,7 +28931,6 @@
           "outs": 3
         },
         "matchup": {
-         
           "pitchHand": {
             "code": "R",
             "description": "Right"
@@ -29422,15 +28943,9 @@
             "menOnBase": "Empty"
           }
         },
-        "pitchIndex": [
-          0,
-          1,
-          2
-        ],
+        "pitchIndex": [0, 1, 2],
         "actionIndex": [],
-        "runnerIndex": [
-          0
-        ],
+        "runnerIndex": [0],
         "runners": [
           {
             "movement": {
@@ -29720,26 +29235,13 @@
         "playEndTime": "2025-07-19T22:21:08.127Z",
         "atBatIndex": 64
       },
-      "scoringPlays": [
-        5,
-        48,
-        57
-      ],
+      "scoringPlays": [5, 48, 57],
       "playsByInning": [
         {
           "startIndex": 0,
           "endIndex": 6,
-          "top": [
-            0,
-            1,
-            2
-          ],
-          "bottom": [
-            3,
-            4,
-            5,
-            6
-          ],
+          "top": [0, 1, 2],
+          "bottom": [3, 4, 5, 6],
           "hits": {
             "away": [
               {
@@ -29967,17 +29469,8 @@
         {
           "startIndex": 7,
           "endIndex": 13,
-          "top": [
-            7,
-            8,
-            9,
-            10
-          ],
-          "bottom": [
-            11,
-            12,
-            13
-          ],
+          "top": [7, 8, 9, 10],
+          "bottom": [11, 12, 13],
           "hits": {
             "away": [
               {
@@ -30174,16 +29667,8 @@
         {
           "startIndex": 14,
           "endIndex": 19,
-          "top": [
-            14,
-            15,
-            16
-          ],
-          "bottom": [
-            17,
-            18,
-            19
-          ],
+          "top": [14, 15, 16],
+          "bottom": [17, 18, 19],
           "hits": {
             "away": [
               {
@@ -30380,16 +29865,8 @@
         {
           "startIndex": 20,
           "endIndex": 25,
-          "top": [
-            20,
-            21,
-            22
-          ],
-          "bottom": [
-            23,
-            24,
-            25
-          ],
+          "top": [20, 21, 22],
+          "bottom": [23, 24, 25],
           "hits": {
             "away": [
               {
@@ -30555,17 +30032,8 @@
         {
           "startIndex": 26,
           "endIndex": 32,
-          "top": [
-            26,
-            27,
-            28
-          ],
-          "bottom": [
-            29,
-            30,
-            31,
-            32
-          ],
+          "top": [26, 27, 28],
+          "bottom": [29, 30, 31, 32],
           "hits": {
             "away": [
               {
@@ -30762,16 +30230,8 @@
         {
           "startIndex": 33,
           "endIndex": 38,
-          "top": [
-            33,
-            34,
-            35
-          ],
-          "bottom": [
-            36,
-            37,
-            38
-          ],
+          "top": [33, 34, 35],
+          "bottom": [36, 37, 38],
           "hits": {
             "away": [
               {
@@ -30906,19 +30366,8 @@
         {
           "startIndex": 39,
           "endIndex": 47,
-          "top": [
-            39,
-            40,
-            41
-          ],
-          "bottom": [
-            42,
-            43,
-            44,
-            45,
-            46,
-            47
-          ],
+          "top": [39, 40, 41],
+          "bottom": [42, 43, 44, 45, 46, 47],
           "hits": {
             "away": [
               {
@@ -31084,24 +30533,8 @@
         {
           "startIndex": 48,
           "endIndex": 61,
-          "top": [
-            48,
-            49,
-            50,
-            51,
-            52,
-            53
-          ],
-          "bottom": [
-            54,
-            55,
-            56,
-            57,
-            58,
-            59,
-            60,
-            61
-          ],
+          "top": [48, 49, 50, 51, 52, 53],
+          "bottom": [54, 55, 56, 57, 58, 59, 60, 61],
           "hits": {
             "away": [
               {
@@ -31329,11 +30762,7 @@
         {
           "startIndex": 62,
           "endIndex": 64,
-          "top": [
-            62,
-            63,
-            64
-          ],
+          "top": [62, 63, 64],
           "bottom": [],
           "hits": {
             "away": [
@@ -36403,51 +35832,17 @@
             }
           },
           "batters": [
-            663697,
-            677951,
-            686469,
-            672580,
-            521692,
-            679845,
-            666023,
-            670231,
-            686475,
-            624428,
-            608379,
-            670167,
-            668674
+            663697, 677951, 686469, 672580, 521692, 679845, 666023, 670231,
+            686475, 624428, 608379, 670167, 668674
           ],
-          "pitchers": [
-            608379,
-            670167,
-            668674
-          ],
-          "bench": [
-            695506,
-            664728,
-            571912
-          ],
+          "pitchers": [608379, 670167, 668674],
+          "bench": [695506, 664728, 571912],
           "bullpen": [
-            680742,
-            663460,
-            702070,
-            664199,
-            674444,
-            608032,
-            694851,
-            669674,
-            607625,
-            672582
+            680742, 663460, 702070, 664199, 674444, 608032, 694851, 669674,
+            607625, 672582
           ],
           "battingOrder": [
-            663697,
-            677951,
-            686469,
-            672580,
-            521692,
-            679845,
-            666023,
-            670231,
+            663697, 677951, 686469, 672580, 521692, 679845, 666023, 670231,
             624428
           ],
           "info": [
@@ -41339,52 +40734,17 @@
             }
           },
           "batters": [
-            669364,
-            660821,
-            672640,
-            682663,
-            669065,
-            676572,
-            689414,
-            663743,
-            667472,
-            688363,
-            615698,
-            663969,
-            678692,
-            669622
+            669364, 660821, 672640, 682663, 669065, 676572, 689414, 663743,
+            667472, 688363, 615698, 663969, 678692, 669622
           ],
-          "pitchers": [
-            615698,
-            663969,
-            678692,
-            669622
-          ],
-          "bench": [
-            681715,
-            656537,
-            691594
-          ],
+          "pitchers": [615698, 663969, 678692, 669622],
+          "bench": [681715, 656537, 691594],
           "bullpen": [
-            645261,
-            669199,
-            678368,
-            665795,
-            676534,
-            806188,
-            676083,
-            691587,
+            645261, 669199, 678368, 665795, 676534, 806188, 676083, 691587,
             681006
           ],
           "battingOrder": [
-            669364,
-            660821,
-            672640,
-            682663,
-            669065,
-            676572,
-            663743,
-            667472,
+            669364, 660821, 672640, 682663, 669065, 676572, 663743, 667472,
             688363
           ],
           "info": [

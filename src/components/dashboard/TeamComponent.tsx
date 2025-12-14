@@ -1,12 +1,14 @@
-import type { ActivePlayer } from '../../types'
-import { Typography, Box, type TypographyProps, Stack } from '@mui/material'
+import { Box, Stack, Typography } from '@mui/material';
+import type { TypographyProps } from '@mui/material';
+import type { ActivePlayer } from '../../types';
 
 export interface TeamComponentProps {
-  name: string
-  isHome?: boolean
-  activePlayers: ActivePlayer[]
-  score?: number
-  isWinner?: boolean
+  name: string;
+  id: number;
+  isHome?: boolean;
+  activePlayers: Array<ActivePlayer>;
+  score?: number;
+  isWinner?: boolean;
 }
 
 export const TeamComponent = ({
@@ -16,15 +18,15 @@ export const TeamComponent = ({
   score,
   isWinner,
 }: TeamComponentProps) => {
-  let homeStatus: string | null = null
+  let homeStatus: string | null = null;
   if (isHome !== undefined) {
-    homeStatus = isHome ? '@' : 'VS'
+    homeStatus = isHome ? '@' : 'VS';
   }
-  const scoreDisplay = score !== undefined ? ` ${score}` : ''
-  let color: TypographyProps['color'] = 'inherit'
+  const scoreDisplay = score !== undefined ? ` ${score}` : '';
+  let color: TypographyProps['color'] = 'inherit';
 
   if (isWinner !== undefined) {
-    color = isWinner === true ? 'primary' : 'warning'
+    color = isWinner === true ? 'primary' : 'warning';
   }
 
   return (
@@ -45,5 +47,5 @@ export const TeamComponent = ({
         ))}
       </Stack>
     </Box>
-  )
-}
+  );
+};

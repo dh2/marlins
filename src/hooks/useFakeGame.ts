@@ -1,18 +1,18 @@
 // Admittedly, the useFakeGame for showing a "live" game is getting a little hairy as I discover
-  // a lot of the data is repeated from gameData/LiveData/LineData
-  //  the need for the incremental update is quite obvious as the payloads can get quite enormous
-  //  I also noticed there is a "fields" param that can be sent along with the query string, but it
-  // was not immediately obvious which keys were allowed to potentially shrink the payload to just 
-  // what is needed
+// a lot of the data is repeated from gameData/LiveData/LineData
+//  the need for the incremental update is quite obvious as the payloads can get quite enormous
+//  I also noticed there is a "fields" param that can be sent along with the query string, but it
+// was not immediately obvious which keys were allowed to potentially shrink the payload to just
+// what is needed
 
+import * as gameData from '../../data/fake-live-game-response.json';
 import type {
   Game,
   GameWithLiveData,
   LiveGameData,
   Play,
   Player,
-} from '@/types'
-import * as gameData from '../../data/fake-live-game-response.json'
+} from '@/types';
 
 const fakeGame: Game = {
   gamePk: 0,
@@ -91,17 +91,17 @@ const fakeGame: Game = {
   recordSource: 'S',
   ifNecessary: 'N',
   ifNecessaryDescription: 'Normal Game',
-}
+};
 
 const guyOnBase: Player = {
   id: 12345,
   fullName: 'Basewell Stoler',
   link: '/api/v1/people/669622',
-}
+};
 function generatePlayParts(): Partial<Play> {
-  const balls = Math.floor(Math.random() * 3)
-  const strikes = Math.floor(Math.random() * 2)
-  const outs = Math.floor(Math.random() * 2)
+  const balls = Math.floor(Math.random() * 3);
+  const strikes = Math.floor(Math.random() * 2);
+  const outs = Math.floor(Math.random() * 2);
   const play: Partial<Play> = {
     about: {
       atBatIndex: 64,
@@ -142,13 +142,13 @@ function generatePlayParts(): Partial<Play> {
       postOnSecond: Math.random() > 0.5 ? guyOnBase : undefined,
       postOnThird: Math.random() > 0.75 ? guyOnBase : undefined,
     },
-  }
-  return play
+  };
+  return play;
 }
 
-export function useFakeGame(gameDate: Date): GameWithLiveData {
-  const date = gameDate.toLocaleDateString('en-US')
-  const data = gameData as unknown as LiveGameData
+export function useFakeGame(gameDate: string): GameWithLiveData {
+  const date = new Date(gameDate).toLocaleDateString('en-US');
+  const data = gameData as unknown as LiveGameData;
   data.gameData.datetime = {
     dateTime: `${date}T11:11:00Z`,
     originalDate: date,
@@ -156,8 +156,8 @@ export function useFakeGame(gameDate: Date): GameWithLiveData {
     dayNight: 'day',
     time: '11:11',
     ampm: 'AM',
-  }
-  data.gameData.teams.away.name = 'Fake City LiveGames'
+  };
+  data.gameData.teams.away.name = 'Fake City LiveGames';
   data.gameData.status = {
     abstractGameState: 'Live',
     codedGameState: 'L',
@@ -165,11 +165,11 @@ export function useFakeGame(gameDate: Date): GameWithLiveData {
     statusCode: 'L',
     startTimeTBD: false,
     abstractGameCode: 'L',
-  }
-  data.gameData.venue.name = 'Fakery Park Field House'
+  };
+  data.gameData.venue.name = 'Fakery Park Field House';
   data.liveData.plays.currentPlay = {
     ...data.liveData.plays.currentPlay,
     ...generatePlayParts(),
-  }
-  return { ...fakeGame, liveData: data }
+  };
+  return { ...fakeGame, liveData: data };
 }
