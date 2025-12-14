@@ -10,7 +10,7 @@ To run this application:
 
 ```bash
 yarn install
-yarn run start
+yarn run dev
 ```
 
 ## Technologies Used
