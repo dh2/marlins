@@ -133,7 +133,7 @@ const transformScheduleData = (
         name: marlinsAffiliateInfo.team.name,
         activePlayers: marlinsActivePlayers,
         score: marlinsAffiliateInfo.score,
-        isWinner: isGameOver && marlinsAffiliateInfo.isWinner,
+        isWinner: isGameOver ? marlinsAffiliateInfo.isWinner : undefined,
       }
 
       const opponent: UITeam = {

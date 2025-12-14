@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { GameNotificationComponent } from './GameNotificationComponent'
-import { Typography, TextField, Stack, CircularProgress } from '@mui/material'
+import { Typography, TextField, Stack, CircularProgress, Grid } from '@mui/material'
 import { useScheduleQuery } from '../../hooks/useScheduleQuery'
 
 export const ScheduleAndResultsComponent = () => {
@@ -8,8 +8,8 @@ export const ScheduleAndResultsComponent = () => {
   const { data: schedule, isLoading, isError } = useScheduleQuery(date)
 
   return (
-    <Stack spacing={2}>
-      <Typography variant="h4">Schedule and Results</Typography>
+    <Stack spacing={2} alignItems="center">
+      <Typography variant="h2" color="primary">Schedule and Results</Typography>
       <TextField
         label="Date"
         type="date"
@@ -24,11 +24,11 @@ export const ScheduleAndResultsComponent = () => {
         <Typography color="error">Error fetching schedule.</Typography>
       )}
       {schedule && (
-        <Stack spacing={2}>
+        <Grid container spacing={2} justifyContent="center">
           {schedule.map((game, index) => (
             <GameNotificationComponent key={index} gameNotification={game} />
           ))}
-        </Stack>
+        </Grid>
       )}
     </Stack>
   )

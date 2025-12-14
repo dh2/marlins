@@ -9,7 +9,7 @@ export interface GameNotificationComponentProps {
 
 export const GameNotificationComponent = ({ gameNotification }: GameNotificationComponentProps) => {
   return (
-    <Grid container spacing={2}>
+    <Grid container size={{xs: 12, md:11, lg: 10}} spacing={2} sx={{border: '1px solid #999'}} padding={1}>
       <Grid size={4}>
         <TeamComponent {...gameNotification.marlinsAffiliate} />
       </Grid>      
